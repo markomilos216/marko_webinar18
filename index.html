@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lekcia 18</title>
+</head>
+<body>
+    <div class="calculator-box">
+        <div class="calculator">
+            <form action="#">
+                <input type="text" name="firstInput" id="firstInput">
+                <select name="operations" id="operations">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="÷">÷</option>
+                </select>
+                <input type="text" name="secondInput" id="secondInput">
+                <button id="equal">=</button>
+                <button id="reset">Reset</button>
+                <input type="text" name="result" id="result" readonly>
+            </form>
+        </div>
+    </div>
+    <div class="history-box">
+        <h4>História</h4>
+        <div id="list"></div>
+    </div>
+    <script src="js/script.js">
+
+    </script>
+</body>
+</html>
